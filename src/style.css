@@ -1,0 +1,13 @@
+@font-face {
+  font-family: "PingFangSC";
+  src: url("./assets/fonts/PingFang.ttc");
+}
+
+:root:root {
+  --van-blue: #0065B9;
+  --c-blue: #0082FF;
+  --van-tab-active-text-color: var(--van-black);
+  --c-greg: #666;
+  --c-greg2: #D5D5D5;
+  --van-font-size-xsm: 13px;
+}
