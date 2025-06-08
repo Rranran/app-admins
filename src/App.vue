@@ -55,6 +55,22 @@
             },
             {
               componentName: 'van-select',
+              label: '进修人员类别',
+              value: 1,
+              description: '这是一段描述111111111',
+              list: [
+                {
+                  id: 1,
+                  label: '生物'
+                },
+                {
+                  id: 2,
+                  label: '数学'
+                }
+              ]
+            },
+            {
+              componentName: 'van-select',
               label: '岗位',
               value: 1,
               field: true,
