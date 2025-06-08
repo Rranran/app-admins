@@ -24,13 +24,14 @@
 :deep(.van-tabs__nav--tag) {
   display: flex;
   background: transparent;
+  margin-bottom: 16px;
 
   .van-tab--tag {
     flex: auto;
     flex-grow: 0;
     padding: var(--van-padding-base) var(--van-padding-sm);
     border-radius: var(--van-padding-md);
-    color: var(--c-greg);
+    color: var(--c-grey);
     font-size: var(--van-font-size-xsm);
     background-color: var(--van-white);
 

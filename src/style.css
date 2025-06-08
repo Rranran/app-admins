@@ -7,7 +7,11 @@
   --van-blue: #0065B9;
   --c-blue: #0082FF;
   --van-tab-active-text-color: var(--van-black);
-  --c-greg: #666;
-  --c-greg2: #D5D5D5;
+  --c-grey: #666;
+  --c-grey2: #D5D5D5;
   --van-font-size-xsm: 13px;
+  --van-field-label-color: var(--c-grey);
+  --van-field-disabled-text-color: var(--c-grey);
+  --van-button-primary-border-color: var(--c-blue);
+  --van-button-primary-background: var(--c-blue)
 }
