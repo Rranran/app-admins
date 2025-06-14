@@ -1,8 +1,9 @@
 <template>
   <div id="app" class="content">
-    <van-form label-align="top">
+    <!-- <van-form label-align="top">
       <DForm :form="formList"></DForm>
-    </van-form>
+    </van-form> -->
+    <List :list="list"></List>
   </div>
 </template>
 
@@ -13,6 +14,7 @@
 
   import { ref } from 'vue'
   import DForm from './DForm.vue'
+  import List from './List.vue'
 
   const active = ref('标签 1')
 
@@ -105,7 +107,6 @@
       { name: '其他信息' }
     ]
   })
-
 </script>
 
 <style lang="less">
